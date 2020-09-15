@@ -4,9 +4,7 @@ import React, { Component } from 'react'
 class addTodo extends Component {
     render() {
     return (
-        <div>
-            
-        </div>
+        <input type="text" name="title" placeholder="Add Todo..."/>
     )
     }
 }  
